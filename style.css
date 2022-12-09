@@ -1,0 +1,183 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: #063647; 
+}
+
+html {
+    scroll-behavior: smooth;	
+}
+
+a {
+  color: #00d1b2;
+}
+
+a:hover {
+  color: #00d1b2;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: #063647;
+}
+
+.section-2 {
+	background-color: #052D3D;
+}
+
+.section-3 {
+	background-color: #0E282E;
+}
+
+.section-4 {
+	background-color: #063647;
+	padding: 0.2rem;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.avatar{
+	height:200px;
+	border-radius: 50%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-figure {
+	margin: 1 auto 2rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+
+.project-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #052D3D;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #052D3D;
+	}
+
+}
+
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-color: #052D3D;
+	padding: 20px;
+	font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+	max-width: 1000px;
+	margin: auto;
+  }
+  
+  h1 {
+	font-size: 50px;
+	word-break: break-all;
+  }
+  
+  .row {
+	margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column*/
+  .row,
+  .row > .column {
+	padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+	float: left;
+	width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Content */
+  .content {
+	background-color: #052D3D;
+	padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+	.column {
+	  width: 50%;
+	}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+  }
